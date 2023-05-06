@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login-form {
+    position: relative;
+}
+
+.login-form h2{
+    color: rgb(0, 187, 255);
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+form a{
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+        text-shadow: 1px 1px 20px red;
+
+}
+
+#icon{
+    margin: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#icon .fa-whatsapp:hover{
+font-size: 28px;
+border: 1px solid rgb(0, 255, 68);
+border-radius: 50%;
+}
+#icon .fa-facebook:hover{
+font-size: 28px;
+border: 1px solid rgb(0, 68, 255);
+    border-radius: 50%;
+}
+#icon .fa-github:hover{
+font-size: 28px;
+border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+#icon .fa-google:hover{
+font-size: 28px;
+    border: 1px solid rgb(209, 26, 26);
+    border-radius: 50%;
+   
+}
+#icon .fa-phone:hover{
+font-size: 28px;
+border: 1px solid rgb(255, 106, 0);
+    border-radius: 50%;
+}
+#icon .fa-whatsapp{
+    font-size: 30px;
+    color: rgb(0, 255, 68);
+
+    padding: 5px;
+}
+#icon .fa-facebook{
+    font-size: 30px;
+    color: rgb(0, 68, 255);
+
+    padding: 5px;
+}
+#icon .fa-google{
+    font-size: 30px;
+    color: rgb(209, 26, 26);
+
+    padding: 5px;
+    border-radius: 50%;
+}
+#icon .fa-github{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+    padding: 5px;
+}
+#icon .fa-phone{
+    font-size: 30px;
+    color: rgb(255, 106, 0);
+
+}
+.btn{
+    width: 200px;
+    background: rgb(0, 238, 255);
+    font-size: 20px;
+    text-shadow: 10px 8px 30px rgb(0, 64, 255);
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px black;
+}
+.btn:hover{
+    background: rgb(0, 225, 255);
+    text-shadow: 20px 0px 20px rgb(0, 64, 255);
+    color: rgb(81, 81, 81);
+    box-shadow: 0px 0px 8px black;
+
+}
+
+
+
+.login-form .active-box{
+    width: 100%;
+    height: 104.5%;
+    background-color: rgb(28, 102, 151);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-form .active-box:hover{
+        opacity: 0;
+        transition: 0.7s;
+}
+.login-form .active-box h2{
+    color: black;
+    text-shadow: 0px 0px 5px black;
+}
+.login-form .active-box p{
+    color: rgba(255, 255, 255, 0.516);
+    font-size: 16px;
+}
+.login-form .active-box button{
+    width: 200px;
+        background: rgb(0, 238, 255);
+        font-size: 20px;
+        text-shadow: 10px 8px 30px rgb(0, 64, 255);
+        font-weight: 800;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px black;
+        border: none;
+        margin: 10px;
+
+}
+.login-form .active-box button:hover {
+    margin: 5px;
+    background: rgb(0, 225, 255);
+    text-shadow: 20px 0px 20px rgb(0, 64, 255);
+    color: rgb(81, 81, 81);
+    box-shadow: 0px 0px 8px black;
+ 
+
+}
+.login-form .active-box button:active {
+    font-size: 18px;
+    margin: 5px;
+    background: rgba(0, 225, 255, 0.846);
+    text-shadow: 20px 0px 20px rgba(0, 64, 255, 0.911);
+    color: rgb(81, 81, 81);
+    box-shadow: 0px 0px 8px black;
+
+
+}
+
+.col-md-8{
+    border-radius: 1%;
+    
+}
+.col-md-8:hover{
+    margin: 1px;
+    background-color: rgb(250, 250, 250);
+}
